@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af02f5cdef98a444ae99b4b774cdb04, type: 3}
+  m_Name: SubmachineItem
+  m_EditorClassIdentifier: 
+  itemName: "<color=red>\u51B2\u950B\u67AA</color>"
+  id: 0
+  type: 0
+  sprite: {fileID: 21300000, guid: 8ec7ba9b21f32a94dae44dbb7c0beb51, type: 3}
+  describe: "\u4E00\u628A\u7EA2\u8272\u54C1\u8D28\u7684\u51B2\u950B\u67AA\u7F62\u4E86"
+  weaponType: 4
+  maxBullet: 35
+  currentBullet: 35
+  reserveAmmo: 140
+  bullet: 3
+  shootTimer: 0.15
+  reloadTimer: 3
+  gameObject: {fileID: 0}
+  canShoot: 1
+  firePos: {fileID: 0}

@@ -1,0 +1,16 @@
+
+Start listening to 0.0.0.0:6666
+>Help
+<color=#91FF5D>===View all commands===</color>
+<color=white>SaveLog</color> <color=grey>-Save the current server running log</color>
+<color=white>Help</color> <color=grey>-Show all command,pageIndex 0 is next page,-1 is previous page</color>
+<color=#9F9F9F>    --Help [int:pageIndex]</color>
+<color=white>Display</color> <color=grey>-Show existing players or room</color>
+<color=#9F9F9F>    --Display room</color>
+<color=#9F9F9F>    --Display players [all|name|uid:displayPlayerMode]</color>
+<color=#9F9F9F>    --Display onlinePlayers [all|name|uid:displayPlayerMode]</color>
+<color=#9F9F9F>    --Display room <roomID:int> [all|name|player:displayRoomMode]</color>
+<color=#9F9F9F>    --Display room <roomName:string> [all|name|player:displayRoomMode]</color>
+<color=#91FF5D>===Page(1 / 1)===</color>
+Missing parameters
+>SaveLog

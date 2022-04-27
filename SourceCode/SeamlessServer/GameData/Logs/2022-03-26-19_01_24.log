@@ -1,0 +1,26 @@
+
+Start listening to 0.0.0.0:6666
+127.0.0.1:1137 connection succeeded!
+收到包-2,包长22
+客户端[0]:127.0.0.1:1137断开连接,Error:UnityEngine.UnityException: get_isActiveAndEnabled can only be called from the main thread.
+Constructors and field initializers will be executed from the loading thread when loading a scene.
+Don't use this function in the constructor or field initializers, instead move initialization code to the Awake or Start function.
+  at (wrapper managed-to-native) UnityEngine.Behaviour.get_isActiveAndEnabled(UnityEngine.Behaviour)
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in D:\GitProject\SeamlessServer\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\UIBehaviour.cs:28 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in D:\GitProject\SeamlessServer\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Graphic.cs:286 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x0003d] in D:\GitProject\SeamlessServer\Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Text.cs:214 
+  at DebugInformationPanel.AddInformation (System.String info, System.String color) [0x00053] in D:\GitProject\SeamlessServer\Assets\TestScripts\DebugInformationPanel.cs:96 
+  at ServerHub.<Awake>b__25_0 (System.String str) [0x00000] in D:\GitProject\SeamlessServer\Assets\Scripts\Server\ServerHub.cs:54 
+  at AnonSocket.AnonSocketUtil.Debug (System.String value) [0x00008] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\AnonSocketUtil.cs:25 
+  at AnonSocket.Data.PacketBase..ctor (System.Byte[] data) [0x00035] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\Data\PacketBase.cs:36 
+  at AnonSocket.AnonServer.Client.TCPEndReceive (System.IAsyncResult ar) [0x00025] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\AnonServer\Client.cs:108 
+>a
+No Found a Command
+127.0.0.1:1156 connection succeeded!
+客户端[1]:127.0.0.1:1156断开连接,Error:System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at AnonSocket.Data.PacketBase.ReadInt32 () [0x00000] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\Data\PacketBase.cs:41 
+  at AnonSocket.Data.PacketBase..ctor (System.Byte[] data) [0x0001d] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\Data\PacketBase.cs:34 
+  at AnonSocket.AnonServer.Client.TCPEndReceive (System.IAsyncResult ar) [0x00025] in D:\GitProject\SeamlessServer\Assets\Scripts\Util\AnonSocket\AnonServer\Client.cs:108 
+>a
+No Found a Command
+>savelog

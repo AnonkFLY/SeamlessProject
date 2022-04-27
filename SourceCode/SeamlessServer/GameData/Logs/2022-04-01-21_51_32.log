@@ -1,0 +1,18 @@
+
+Start listening to 0.0.0.0:6666
+127.0.0.1:47811 connection succeeded!
+<color=#494949>Send数据包0--含义:连接请求</color>
+<color=#494949>Get到数据包0--含义:连接请求</color>
+UDP connection succeeded! id is [0]
+<color=#494949>Get到数据包-2--含义:登录请求</color>
+127.0.0.1:47811 [123]尝试登录
+<color=#11FF00>用户123上线了！ip:127.0.0.1:47811</color>
+<color=#494949>Send数据包-4--含义:获取登录结果</color>
+[123]登录成功
+<color=#494949>Send数据包-5--含义:获得用户数据</color>
+<color=#494949>Send数据包-7--含义:获得房间数据</color>
+<color=red>发送房间数据...</color>
+<color=#494949>Get到数据包-15--含义:进入房间请求</color>
+Room[101]:玩家123加入房间
+<color=#494949>Send数据包-11--含义:进房结果</color>
+>SAVElOG
